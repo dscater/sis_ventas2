@@ -1,0 +1,102 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background-image: url('../imgs/empresa/fondo1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-login {
+    padding: 20px;
+    background-color: rgba(0, 22, 83, 0.658);
+    box-shadow: -7px 7px 10px 2px rgba(6, 42, 143, 0.658);
+}
+
+.header-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.header-login img {
+    margin: 10px auto;
+}
+
+.logo-empresa {
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+}
+
+.contenedor-login {
+    width: 350px;
+    height: auto;
+}
+
+.titulo-empresa {
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    text-align: center;
+}
+
+.body-login {
+    width: 100%;
+    height: auto;
+    padding: 15px;
+    background: rgb(12, 102, 219);
+    box-shadow: 5px 5px 10px 0px black;
+    margin: auto;
+}
+
+.titulo-form {
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    margin-top: 0px;
+    font-size: 1.3em;
+}
+
+.recuperacion {
+    width: 100%;
+    display: flex;
+}
+
+.recuperacion a {
+    width: 100%;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+.recuperacion a:hover {
+    color: rgb(161, 217, 255);
+}
+
+#btnAcceder {
+    border-radius: 0px;
+    background-color: rgb(12, 102, 219);
+    color: white;
+}
+
+.text-error {
+    color: rgb(252, 252, 252) !important;
+}
+
+
+@media (max-width:800px) {
+    .content-login {
+        width: 95%!important;
+    }
+
+    .content-login .input-group{
+        width: 100%!important;
+    }
+}

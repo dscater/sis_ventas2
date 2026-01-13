@@ -1,0 +1,46 @@
+div.form-group.contenedor_subir{
+    position: relative;
+}
+
+#foto{
+max-width: 100%;
+}
+
+.subir{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: #2383f1;
+    color:#fff;
+    border:0px solid #fff;
+    position: absolute;
+    top: 0;
+    width: 100%
+}
+
+.subir span{
+    margin-left: 5px;
+}
+
+.subir:hover{
+    cursor: pointer;
+    color:#fff;
+    background: #2383f1;
+}
+
+.contenedor_foto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor_subir .form-line.error{
+    position: relative;
+}
+
+.contenedor_subir label.error{
+    position: absolute;
+    bottom: -40px;
+}

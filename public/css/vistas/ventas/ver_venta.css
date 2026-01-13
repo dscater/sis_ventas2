@@ -1,0 +1,135 @@
+.titulo {
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-top: 80px;
+    width: 450px;
+}
+
+.titulo p.dir {
+    text-align: center;
+    font-size: 0.9em;
+    padding: 0;
+    margin-bottom: 0px;
+}
+
+.titulo p.activi {
+    text-align: center;
+    font-size: 0.9em;
+    padding: 0;
+}
+
+.titulo h2 {
+    text-align: center;
+}
+
+.titulo_derecha {
+    float: right;
+    top: 10px;
+    right: 45px;
+}
+
+.titulo_derecha .contenedor_info {
+    width: 100%;
+    text-align: right;
+}
+
+.titulo_derecha .contenedor_info p.info {
+    font-size: 0.8em;
+    margin-bottom: 1px;
+}
+
+.logo_factura {
+    width: 120px;
+    height: 70px;
+    position: absolute;
+    top: 0px;
+    left: 10px;
+}
+
+.datos_factura {
+    padding: 3px;
+    background: rgb(241, 245, 248);
+    font-size: 0.8em;
+    position: relative;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 5px;
+    margin-top: 0px;
+}
+
+.datos_factura p {
+    margin-bottom: 2px;
+}
+
+.datos_factura .num_fac {
+    width: 50%;
+}
+
+.factura {
+    position: relative;
+    width: 100%;
+}
+
+.factura thead tr {
+    background: rgb(241, 245, 248);
+    color: black;
+}
+
+.factura thead tr th {
+    text-align: center;
+    font-size: 0.75em;
+}
+
+.factura tbody tr td {
+    text-align: center;
+    font-size: 0.7em;
+}
+
+.factura tbody tr.total td:first-child {
+    text-align: right;
+    padding-right: 15px;
+}
+
+.factura tbody tr.total_final td:nth-child(3n),
+.factura tbody tr.total_final td:nth-child(4n),
+.factura tbody tr.total_final td:nth-child(5n),
+tr.total_final td:nth-child(6n) {
+    background: rgb(241, 245, 248);
+    color: black;
+}
+
+.info1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 0.75em;
+}
+
+.info2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 0.65em;
+}
+
+.sucursal {
+    text-align: center;
+}
+
+.derecha {
+    text-align: right !important;
+    padding-right: 5px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.border-top {
+    border-top: solid 1px rgb(216, 216, 216);
+}
+
+.border-bottom {
+    border-bottom: solid 1px rgb(216, 216, 216);
+}

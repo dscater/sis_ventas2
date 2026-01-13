@@ -1,0 +1,182 @@
+/* CONTENEDORES DEL FORM */
+.contenedor-editable{
+    width: 100%;
+    height: auto;
+}
+
+.elementos-editable{
+    width: 100%;
+    height: auto;
+    font-family: "open sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #676a6c;
+}
+
+/* ELEMENTO */
+.elemento{
+    display: flex;
+    font-size: 13px;
+    font-family: "open sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #676a6c;
+    margin-bottom: 10px;
+}
+
+.elemento .titulo-elemento{
+    display: flex;
+    background: #fafafb;
+    font-size: 1.1em;
+    padding: 5px 10px 5px 10px;
+    border:solid 1px #e7eaec;
+    -webkit-flex-basis:210px;
+    flex-basis: 210px;
+    min-width: 210px;
+    -webkit-box-align: center;
+    -webkit-flex-align:center;
+    align-items: center;
+}
+
+.elemento .contenedor-informacion{
+    display: flex;
+    border: solid 1px #e7eaec;
+    flex-grow: 3;    
+    width: 50%;
+    align-items: center!important;
+}
+
+.elemento .contenedor-informacion select{
+     height: 100%;
+     border:0px!important;
+}
+
+.elemento .contenedor-informacion select:hover{
+    cursor: pointer;
+}
+
+.informacion{
+    border:0px!important;
+}
+
+.titulo-elemento.wp-180{
+    display: flex;
+    background: #fafafb;
+    font-size: 1.1em;
+    padding: 5px 10px 5px 10px;
+    border:solid 1px #e7eaec;
+    -webkit-flex-basis:150px;
+    flex-basis: 150px;
+    min-width: 150px;
+    -webkit-box-align: center;
+    -webkit-flex-align:center;
+    align-items: center;
+}
+
+.elemento .contenedor-informacion .contenedor-editable{
+    color: #676a6c;
+    padding: 10px;
+    min-height: 56px;
+    cursor: pointer;
+    flex-grow: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.elemento .contenedor-informacion form .bootstrap-tagsinput{
+    border:0px!important;
+    padding: 0px;
+    width: 100%!important;
+    height: 100%;
+    box-shadow: none;
+}
+
+.elemento .contenedor-informacion form .bootstrap-tagsinput input{
+    background-color: none;
+    height: 100%;
+    border:0px!important;
+    height: auto!important;
+    padding: 5px;
+}
+
+
+.elemento .contenedor-informacion form > textarea,
+.elemento .contenedor-informacion form > input,
+.elemento .contenedor-informacion form > select
+{
+    width: 100%;
+    padding: 10px;
+    min-height: 56px;
+}
+
+
+.form-control.infomracion{
+    border:0px!important;
+}
+
+.boton-opcion{
+    display: flex;
+    align-items: center;
+    background: #fafafb;
+    cursor: pointer;
+    border-left: solid 1px #e7eaec;
+    float: right;
+    padding: 10px;
+    height: 100%;
+}
+
+.boton-opcion i{
+    width: 1em;
+    height: 1em;
+    line-height:1;
+}
+
+.oculto{
+    display: none!important;
+}
+
+.tituloForm{
+    color:rgb(95, 95, 95);
+    font-weight: 500;
+}
+
+textarea{
+    resize: vertical;
+}
+
+/* BOTONES,INPUTS-SELECTS... */
+
+.boton-opcion:hover{
+    cursor: pointer;
+}
+
+.editar i{
+    color:#1ab394;   
+}
+.guardar i{
+    color:#1ab394;   
+}
+.cancelar i{
+    color:#db4965;   
+}
+
+.overlay i{
+    font-size: 1em;
+    color:rgb(122, 122, 122)!important;   
+}
+
+form{
+    width: 100%;
+}
+
+.contenedor-editable{
+    font-size: 0.85em;
+}
+
+form .informacion{
+    font-size: 0.9em;
+}
+
+@media (max-width:765px){
+    .elemento .titulo-elemento{
+        -webkit-flex-basis:120px;
+        flex-basis: 120px;
+        min-width: 120px;
+    }
+}

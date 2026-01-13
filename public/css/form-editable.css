@@ -1,0 +1,86 @@
+
+/* CONTENEDORES DEL FORM */
+.contenedor-editable{
+    width: 100%;
+    height: auto;
+}
+
+.elementos-editable{
+    width: 100%;
+    height: auto;
+    font-family: "open sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #676a6c;
+}
+
+/* ELEMENTO */
+.elemento{
+    display: flex;
+    font-size: 13px;
+    font-family: "open sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #676a6c;
+    margin-bottom: 10px;
+}
+
+.elemento .titulo-elemento{
+    display: flex;
+    background: #fafafb;
+    font-size: 1.1em;
+    padding: 5px 10px 5px 10px;
+    border:solid 1px #e7eaec;
+    -webkit-flex-basis:210px;
+    flex-basis: 210px;
+    min-width: 210px;
+    -webkit-box-align: center;
+    -webkit-flex-align:center;
+    align-items: center;
+}
+
+.elemento .contenedor-informacion{
+    display: flex;
+    border: solid 1px #e7eaec;
+    flex-grow: 3;    
+    width: 50%;
+}
+
+.elemento .contenedor-informacion select{
+     height: 100%;
+     border:0px!important;
+}
+
+.elemento .contenedor-informacion select:hover{
+    cursor: pointer;
+}
+
+.informacion{
+    border:0px!important;
+}
+
+.elemento .contenedor-informacion .contenedor-editable{
+    color: #676a6c;
+    padding: 10px;
+    min-height: 56px;
+    cursor: pointer;
+    flex-grow: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.form-control.infomracion{
+    border:0px!important;
+}
+
+.boton-opcion{
+    display: flex;
+    align-items: center;
+    background: #fafafb;
+    cursor: pointer;
+    border-left: solid 1px #e7eaec;
+    float: right;
+    padding: 10px;
+}
+
+.boton-opcion i{
+    width: 1em;
+    height: 1em;
+    line-height:1;
+}
